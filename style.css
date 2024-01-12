@@ -1,0 +1,104 @@
+/* Core styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: whitesmoke;
+  font-family: Verdana;
+  scroll-behavior: smooth;
+}
+/* Feature section styling */
+.feature {
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+}
+
+.featureTag {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.featureTitle {
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+.featureReadMore {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid whitesmoke;
+  border-radius: 15px;
+  max-width: 175px;
+  padding: 15px 30px;
+  margin-top: 15px;
+}
+
+.featureReadMore:hover {
+  text-decoration: underline;
+  color: rgba(224, 171, 14, 0.874);
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 200px;
+  left: 50px;
+  gap: 15px;
+}
+
+/* Feature background images */
+.mainImage {
+  background-image: url("./images/mainImage.jpg");
+}
+
+.toursImage {
+  background-image: url("./images/toursImage.jpg");
+}
+
+.guidesImage {
+  background-image: url("./images/guidesImage.jpg");
+}
+
+/* Header and nav styling */
+
+header {
+  position: fixed;
+  gap: 45px;
+  color: whitesmoke;
+  display: flex;
+  padding: 35px 45px;
+  z-index: 1;
+  transition: top 0.3s;
+}
+
+header a {
+  color: whitesmoke;
+}
+
+nav {
+  display: flex;
+  text-transform: uppercase;
+  align-items: center;
+  gap: 45px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: rgba(224, 171, 14, 0.874);
+}
+
+/* Footer styling */
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 30px;
+}
