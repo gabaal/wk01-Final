@@ -25,7 +25,8 @@
   font-size: 2.5rem;
 }
 
-.featureReadMore {
+.featureReadMore,
+.toursReadMore {
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
@@ -37,7 +38,8 @@
   font-size: 1rem;
 }
 
-.featureReadMore:hover {
+.featureReadMore:hover,
+.toursReadMore:hover {
   text-decoration: underline;
   color: rgba(224, 171, 14, 0.874);
 }
@@ -51,21 +53,30 @@
   gap: 15px;
 }
 
-/* Feature background images */
+.featureText,
+.toursText {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  gap: 15px;
+}
+
+/* Section background images */
 .mainImage {
   background-image: url("./images/mainImage.jpg");
+  /* opacity: 0.75; */
 }
-
 .toursImage {
   background-image: url("./images/toursImage.jpg");
+  /* opacity: 0.75; */
 }
-
 .guidesImage {
   background-image: url("./images/guidesImage.jpg");
+  /* opacity: 0.75; */
 }
-
 .aboutImage {
   background-image: url("./images/abountImage.jpg");
+  /* opacity: 0.75; */
 }
 
 /* Header and nav styling */
